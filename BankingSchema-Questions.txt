@@ -1,0 +1,28 @@
+1. Write a query which will display the customer id, account type they hold, their account number and bank name.
+
+2. Write a query which will display the customer id, account type and the account number of HDFC customers who registered after 12-JAN-2012 and before 04-APR-2012.
+
+3. Write a query which will display the customer id, customer name, account no, account type and bank name where the customers hold the account.
+
+4. Write a query which will display the customer id, customer name, gender, marital status along with the unique reference string and sort the records based on customer id in descending order. 
+Hint:  Generate unique reference string as mentioned below:
+ CustomerName_Gender_MaritalStatus
+ Example, 
+ C-005           KUMAR              M                 SINGLE            KUMAR_M_SINGLE
+ Use "UNIQUE_REF_STRING" as alias name for displaying the unique reference string.
+
+5. Write a query which will display the account number, customer id, registration date, initial deposit amount of the customer whose initial deposit amount is within the range of Rs.15000 to Rs.25000.
+
+6. Write a query which will display customer id, customer name, date of birth, guardian name of the customers whose name starts with 'J'.
+
+7. Write a query which will display customer id, account number and passcode. 
+Hint:  To generate passcode, join the last three digits of customer id and last four digit of account number. 
+Example
+C-001                   1234567898765432                0015432
+Use "PASSCODE" as alias name for displaying the passcode.
+
+8. Write a query to display the customer id, account number and interest amount in the below format with INTEREST_AMT as alias name. Sort the result based on the INTEREST_AMT in ascending order.  Example: $5Hint: Need to prefix $ to interest amount and round the result without decimals. 
+
+9. Write a query which will display the customer id, customer name, date of birth, Marital Status, Gender, Guardian name, contact no and email id of the customers whose gender is male 'M' and marital status is MARRIED.
+
+10. Write a query to display the customer id, account number and interest amount in the below format with INTEREST_AMT as alias name. Sort the result based on the INTEREST_AMT in ascending order.  Example: $5Hint: Need to prefix $ to interest amount and round the result without decimals. 
